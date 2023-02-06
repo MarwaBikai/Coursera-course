@@ -8,7 +8,7 @@ body{
     margin-right:0;
 }
 h1{
-   text-align: center; margin-right: 1%;
+   text-align: center; margin-right: 1%;margin-left: 1%;
    border-radius: 3px; border-style: groove; border-color: maroon; 
    border-top-style: double; background-color: antiquewhite;
 
