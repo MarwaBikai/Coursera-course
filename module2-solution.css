@@ -8,7 +8,10 @@ body{
     margin-right:0;
 }
 h1{
-   text-align: center;
+   text-align: center; margin-right: 1%;
+   border-radius: 3px; border-style: groove; border-color: maroon; 
+   border-top-style: double; background-color: antiquewhite;
+
 }
 
 #chicken , #beef , #sushi{
@@ -42,7 +45,6 @@ div{
     margin-top: 10%;
     width: 90%;
     position: absolute;
-    
 }
 #sushi {
     position:absolute;
@@ -66,12 +68,12 @@ div{
     background-color: lightcoral;
 }
 #sushiHeader{
-    background-color: rgb(211, 211, 83);
+    background-color:  lightgreen;
 }
 
 
 #chickenHeader{
-    background-color: pink;
+    background-color: lightblue;
 }
 
 @media  (min-width :768px ) and ( max-width: 991px) {
