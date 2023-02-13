@@ -3,26 +3,25 @@
     box-sizing: border-box;
 }
 
-body{
-    position: relative;
-    margin-right:0;
-}
 h1{
-   text-align: center; margin-right: 1%;margin-left: 1%;
-   border-radius: 3px; border-style: groove; border-color: maroon; 
-   border-top-style: double; background-color: antiquewhite;
+   text-align: center; margin-right: 1%;margin-left: 1%; margin: 1%;
+
 
 }
 
-#chicken , #beef , #sushi{
+.chicken , .beef , .sushi{
     background-color: grey;
-    padding:30px;
+    padding:50px;
     padding-bottom: 10px;
-    margin:0;
-    margin-right: 10px;
     border :1px solid black;
+    margin: 0;
+    margin-bottom: 20px;
     
+}
 
+
+.container{
+    margin-top: 50px;
 }
 div > h2{
     margin:0;
@@ -34,9 +33,7 @@ div > h2{
   
 }
 div{
-   position: relative;
-   width: 30%;
-   
+    position: relative;
 }
 
 #menu {
@@ -46,23 +43,7 @@ div{
     width: 90%;
     position: absolute;
 }
-#sushi {
-    position:absolute;
-    top:0; right:0;
-    margin-right:20px;width: 30%;
-} 
 
-#beef{
-    position: absolute;
-    top: 0; right: 34%;
-    margin-right:20px;width: 30%;
-} 
-
-#chicken{
-    margin:0;
-    margin-right:5px;
-    width: 30%;
-}
 
 #beefHeader{
     background-color: lightcoral;
@@ -71,62 +52,26 @@ div{
     background-color:  lightgreen;
 }
 
+.navbar-nav{
+    text-align: center;
+  
+}
+.navbar{
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+.navbar-nav > .nav-link{
+  border: 2px solid black;
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 1.2em;
+}
 
 #chickenHeader{
     background-color: lightblue;
 }
 
-@media  (min-width :768px ) and ( max-width: 991px) {
-   
-    
-     #menu{
-      
-
-        width:90%;
-        margin:0;
-        margin-left: 3%; margin-right: 3%; margin-top: 10%;
-    }
-    #chicken {
-       position:relative;
-       top:0; left:0; width:48%;
-       
-       
-    }
-    #beef{
-        width: 48%; position: absolute ; top:0 ;  right:0; margin-right: 0;
-    }
- 
-    #sushi{
-        margin-top: 3%;  margin-right: 0;
-        position: relative;
-        width:100%;
-          }
-    
-        }
-@media ( max-width: 767px ){
-   
-     #menu{
-      
-
-        width:90%;
-        margin:0;
-        margin-left: 9%; margin-right: 5%; margin-top: 10%;
-    }
-    #chicken {
-       position:relative;
-       top:0; left:0; width:90%;
-       
-       
-    }
-    #beef{
-        margin-top: 3%; width: 90%; position: relative ; top:0 ;  right:0; margin-right: 0;
-    }
- 
-    #sushi{
-        margin-top: 3%;  margin-right: 0;
-        position: relative;
-        width:90%;
-          }
-    
-        }
-} 
+.navbar-toggler{
+    border: 2px solid black;
+    margin-bottom: 10px;
+}

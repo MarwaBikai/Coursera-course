@@ -1,0 +1,136 @@
+
+*{
+    box-sizing: border-box;
+}
+#menu{background-color: pink;
+}
+body{
+    position: relative;
+    margin-right:0;
+}
+h1{
+   text-align: center; margin-right: 1%;margin-left: 1%;
+   border-radius: 3px; border-style: groove; border-color: maroon; 
+   border-top-style: double; background-color: antiquewhite;
+
+}
+
+#chicken , #beef , #sushi{
+    background-color: grey;
+    padding:30px;
+    padding-bottom: 10px;
+    margin:0;
+    margin-right: 10px;
+    border :1px solid black;
+    
+
+}
+div > h2{
+    margin:0;
+    border :1px solid black;
+    position: absolute;
+    top:0; right:0;
+    width: 43%;
+    text-align: center;
+  
+}
+div{
+   position: relative;
+   width: 30%;
+   
+}
+
+#menu {
+    margin: auto 0;
+    margin-left: 5%;
+    margin-top: 10%;
+    width: 90%;
+    position: relative;
+}
+#sushi {
+    position:absolute;
+    top:0; right:0;
+    margin-right:20px;width: 30%;
+} 
+
+#beef{
+    position: absolute;
+    top: 0; right: 34%;
+    margin-right:20px;width: 30%;
+} 
+
+#chicken{
+    margin:0;
+    margin-right:5px;
+    width: 30%;
+}
+
+#beefHeader{
+    background-color: lightcoral;
+}
+#sushiHeader{
+    background-color:  lightgreen;
+}
+
+
+#chickenHeader{
+    background-color: lightblue;
+}
+
+@media  (min-width :768px ) and ( max-width: 991px) {
+   
+    *{
+        box-sizing: border-box;
+    }
+   
+    menu{
+        width:90%; height: 100%;
+        background-color: pink;
+    
+    }
+    #chicken {
+        width:48%;
+        float: left;
+        position: relative;
+       
+    }
+    #beef{
+      
+        width:48%; 
+           }
+ 
+    #sushi{
+        margin: 0;
+        
+        margin-top: 30%;
+        width:100%;
+    
+    
+        }
+@media ( max-width: 767px ){
+   
+     #menu{
+      
+
+        width:90%;
+        margin:0;
+        margin-left: 9%; margin-right: 5%; margin-top: 10%;
+    }
+    #chicken {
+      float:left;clear:left;
+      width:100%;
+       
+       
+    }
+    #beef{
+       
+     float:left;clear:left;
+      width:100%;
+       margin-top: 3%; width: 90%; }
+ 
+    #sushi{
+        margin-top: 3%;  margin-right: 0;
+        float:left;clear:left;
+          }
+    
+        
